@@ -9,8 +9,7 @@ with open("questions.json", "r") as file:
 #introduction
 print("Welcome to 'Who wants to be a GAZILLIONAIRE!'")
 print()
-print("Here are the categories of the questions: ")
-print("------------------")
+
 
 #player attribute from the __init__ function
 gaming = Game(player=input("Enter your name: ").title())
@@ -20,6 +19,8 @@ print(f"Hello {gaming.player}")
 print("Your credits: ")
 print(Game.credit_score)
 print()
+print("Here are the categories of the questions: ")
+print("------------------")
 
 #using a while loop so the program does not end after a single question
 while True:
